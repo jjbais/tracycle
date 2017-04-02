@@ -1,0 +1,38 @@
+<!--
+  Generated template for the SettingsCollision page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ANTI-COLLISION SETTINGS</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-list padding>
+      <ion-item>
+        <ion-label><b>FRONT</b></ion-label>
+        <ion-toggle (ionchange)="t1($event)" checked="true"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>BACK</b></ion-label>
+        <ion-toggle (ionchange)="t2($event)" checked="true"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>LEFT</b></ion-label>
+        <ion-toggle (ionchange)="t3($event)" checked="true"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>RIGHT</b></ion-label>
+        <ion-toggle (ionchange)="t4($event)" checked="true"></ion-toggle>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>
+
