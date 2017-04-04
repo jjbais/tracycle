@@ -16,6 +16,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { BluetoothSerial } from '@ionic-native/bluetooth-serial'
 import { Bluetooth } from '../providers/bluetooth';
+
+import { GoogleMaps } from '@ionic-native/google-maps';
  
 @NgModule({
   declarations: [
@@ -50,6 +52,7 @@ import { Bluetooth } from '../providers/bluetooth';
     SplashScreen,
     BluetoothSerial,
     Bluetooth,
+    GoogleMaps,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

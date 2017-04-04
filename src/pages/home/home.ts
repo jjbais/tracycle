@@ -18,5 +18,6 @@ export class HomePage {
 
   mainMenu(){
     this.navCtrl.push(DevicesPage);
+    //this.navCtrl.setRoot(MainMenuPage);
   }
 }
